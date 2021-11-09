@@ -1,0 +1,27 @@
+{
+  "name": "seguradora-aplicacao",
+  "version": "1.0.0",
+  "description": "Lado cliente do sistema de seguradora de veículos",
+  "main": "js/main.js",
+  "scripts": {
+    "test": "test",
+    "start": "webpack --watch --config dev.webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filiperdt/seguradora-aplicacao.git"
+  },
+  "keywords": [
+    "seguradora"
+  ],
+  "author": "Rúben Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/filiperdt/seguradora-aplicacao/issues"
+  },
+  "homepage": "https://github.com/filiperdt/seguradora-aplicacao#readme",
+  "devDependencies": {
+    "webpack": "^5.40.0",
+    "webpack-cli": "^4.7.2"
+  }
+}
