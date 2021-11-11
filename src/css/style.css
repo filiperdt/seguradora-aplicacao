@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+table th, td{
+	text-align: center;
+}
+
+.divTableScroll {
+	overflow: auto;
+	height: 200px;
+}
+.divTableScroll thead th {
+	position: sticky;
+	top: 0;
+	z-index: 1;
+	background: rgb(211, 211, 211);
+}
+
+.fa-plus-square{
+	color: rgba(19, 85, 25, 0.726);
+}
+
+.divConteudoCentralizado{
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
+}
+
+.divInlineWidth23{
+	display: inline-block;
+	width: 23%;
+}
+
+.divInlineWidth48{
+	display: inline-block;
+	width: 50%;
+	padding-right: 3px;
+}
+
+.divInlineWidth77{
+	display: inline-block;
+	width: 77%;
+	padding-right: 3px;
+}
+
+.campoFormCliente{
+	margin-bottom: 8px;
+}
+
+.campoFormApolice{
+	margin-bottom: 8px;
+}
+
+.sucesso-mensagem{
+	color: #198754;
+}
+
+.erro-mensagem{
+	color: #dc3545;
+}
