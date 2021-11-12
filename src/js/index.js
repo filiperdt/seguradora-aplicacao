@@ -195,7 +195,7 @@ const fnDeleteCliente = cpf => {
         .then(data => data.json())
         .then(cliente => {
             alert((JSON.stringify(cliente.message, null, 4)).replace(/"/g, ''));
-            fnIndex();
+            fnRecarregarListCliente();
         })
         .catch(e => console.log(`Ocorreu um erro. fnDeleteCliente: ${e}`))
     }
@@ -352,7 +352,7 @@ const fnDeleteApolice = numero => {
         .then(data => data.json())
         .then(apolice => {
             alert((JSON.stringify(apolice.message, null, 4)).replace(/"/g, ''));
-            fnIndex();
+            fnRecarregarListApolice();
         })
         .catch(e => console.log(`Ocorreu um erro. fnDeleteApolice: ${e}`))
     }
@@ -538,7 +538,7 @@ const exibirDivMensagemErro = (nomeDivExibir, paragraphClass, conteudo) => {
 
 const completarZerosEsquerdaCpf = cpf => {
     cpf = cpf.toString();
-
+    
     while(cpf.length < 11){
         cpf = '0' + cpf;
     }
