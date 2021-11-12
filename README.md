@@ -1,1 +1,1 @@
-# seguradora-aplicacao
+# Seguradora de veículos - Aplicação
